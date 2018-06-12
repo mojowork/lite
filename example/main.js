@@ -4,7 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import lite from '../src/index'
+
 Vue.config.productionTip = false
+
+Vue.use(lite)
 
 /* eslint-disable no-new */
 new Vue({

@@ -1,6 +1,13 @@
 <template>
     <div>
-        this is Test
+        <div>
+            <t-button > default </t-button>
+            <t-button  type="primary" > primary </t-button>
+            <t-button  type="warning" :disabled="true"> warning </t-button>
+            <t-button  type="danger"> danger </t-button>
+            <t-button  type="info"> info </t-button>
+            <t-button  type="success"> success </t-button>
+        </div>
     </div>
 </template>
 
