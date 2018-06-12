@@ -1,0 +1,44 @@
+/*场景切换的动画效果*/
+
+// 淡入淡出效果
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .3s;
+}
+
+
+// 往右位移淡出效果
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all .5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-to {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.breadcrumb-leave-active {
+  position: absolute;
+}
+
+// 往下位移淡出效果
+.down-enter-active,
+.down-leave-active {
+  transition: all .5s;
+}
+
+.down-enter,
+.down-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.down-leave-active {
+  position: absolute;
+}
