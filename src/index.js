@@ -8,12 +8,17 @@ import { Alert } from 'components/alert'
 import { Button } from 'components/button'
 import { Input } from 'components/input'
 import { Modal } from 'components/modal'
+import { Progress } from 'components/progress'
+import { Tabs, Tab } from 'components/tabs'
 
 let lite = [
     Button,
     Alert,
     Input,
-    Modal
+    Modal,
+    Progress,
+    Tabs,
+    Tab
 ]
     
 

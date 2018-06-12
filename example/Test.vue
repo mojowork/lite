@@ -31,6 +31,26 @@
                 </div>
             </t-modal>
         </div>
+        <div>
+            <t-progress :value="99"></t-progress>
+            <t-progress type="info" v-model="progress"></t-progress>
+            <t-progress type="info" :value="52"></t-progress>
+            <t-button @click="progress++"> 加 </t-button>
+            <t-button  @click="progress--"> 减 </t-button>
+        </div>
+        <div>
+            <t-tabs v-model="tab" >
+                <t-tab label="first">
+                First
+                </t-tab>
+                <t-tab label="second">
+                    Second
+                </t-tab>
+                <t-tab label="third">
+                    Third
+                </t-tab>
+            </t-tabs>
+        </div>
     </div>
 </template>
 
@@ -38,7 +58,8 @@
     export default {
         data() {
             return {
-                open: false
+                open: false,
+                progress: 11
             }
         },
         methods: {

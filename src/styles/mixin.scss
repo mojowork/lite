@@ -1,0 +1,16 @@
+// 选中状态
+@mixin selected {
+    &{
+      position: relative;
+      text-align: center;
+    }
+    &::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      bottom: -2px; left:0;
+      height: 2px;
+      width: 100%;
+      background-color: $color-primary;
+    }
+  }
