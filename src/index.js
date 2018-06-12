@@ -6,10 +6,12 @@
 
 import { Alert } from 'components/alert'
 import { Button } from 'components/button'
+import { Input } from 'components/input'
 
 let lite = [
   Button,
-  Alert
+  Alert,
+  Input
 ]
     
 
