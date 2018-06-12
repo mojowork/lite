@@ -4,10 +4,12 @@
  * @Date: 2018-05-17 
  */
 
+import { Alert } from 'components/alert'
 import { Button } from 'components/button'
 
 let lite = [
   Button,
+  Alert
 ]
     
 

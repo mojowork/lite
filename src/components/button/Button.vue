@@ -15,25 +15,11 @@
 </template>
 
 <script>
+import { mixin } from '../../mixin/index'
 export default {
     name: "tButton",
-
+    mixins: [mixin],
     props: {
-        type: {
-            type: String,
-            default: "default",
-            validator: val =>
-                [
-                    "default",
-                    "text",
-                    "primary",
-                    "warning",
-                    "danger",
-                    "info",
-                    "success"
-                ].indexOf(val) > -1
-        },
-
         disabled: {
             type: Boolean,
             default: false
