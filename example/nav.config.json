@@ -1,0 +1,68 @@
+{
+  "开发指南": [
+    {
+      "name": "giud",
+      "path": "/giud",
+      "desc": "介绍"
+    },
+    {
+      "name": "start",
+      "path": "/start",
+      "desc": "快速开始"
+    },
+    {
+      "name": "index",
+      "path": "/",
+      "type": "pages"
+    },
+    {
+      "name": "logs",
+      "path": "/logs",
+      "desc": "更新日志"
+    }
+  ],
+  "组件": [
+    {
+      "desc": "基础组件",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "Button 按钮",
+          "name": "button",
+          "path": "/button"
+        },
+        {
+          "desc": "Alert 警告",
+          "name": "alert",
+          "path": "/alert"
+        }
+      ]
+    },
+    {
+      "desc": "视图组件",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "Modal 模态框",
+          "name": "modal",
+          "path": "/modal"
+        },
+        {
+          "desc": "Progress 进度条",
+          "name": "progress",
+          "path": "/progress"
+        },
+        {
+          "desc": "Input 输入框",
+          "name": "input",
+          "path": "/input"
+        },
+        {
+          "desc": "Tabs 标签页",
+          "name": "tabs",
+          "path": "/tabs"
+        }
+      ]
+    }
+  ]
+}

@@ -3,17 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import demoBlock from './components/demo-block.vue'
+import lite from '../dist/lite'
 
-import lite from '../src/index'
+Vue.component('demo-block', demoBlock)
+Vue.use(lite)
 
 Vue.config.productionTip = false
-
-Vue.use(lite)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App },
-  template: '<App/>'
+  render: h => h(App)
 })
